@@ -7,20 +7,18 @@ public class LowerLimitAndUpperLimit {
         Scanner reader = new Scanner(System.in);
 
         System.out.print("First: ");
-        int first = Integer.parseInt(reader.nextLine()); 
+        int first = Integer.parseInt(reader.nextLine());
         System.out.print("Last: ");
-        int last = Integer.parseInt(reader.nextLine()); 
-
-        if (first < last){
-            while( first < last+1 ){
-                System.out.println(first);
-                first++;
-            } 
-        } else {
-            System.out.println();;
+        int last = Integer.parseInt(reader.nextLine());
+ 
+        int number = first;
+        while (number <= last) {
+            System.out.println(number);
+            number++;
         }
     }
 }
+
 
     
 
